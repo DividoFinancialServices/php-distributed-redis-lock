@@ -1,20 +1,24 @@
 {
-    "name": "ronnylt/redlock-php",
+    "name": "divido/php-distributed-redis-lock",
     "description": "Redis distributed locks in PHP",
     "authors": [
         {
             "name": "Ronny Lopez",
             "email": "ronny@tangotree.io"
+        },
+        {
+            "name": "Neil McGibbon",
+            "email": "code@neilmcgibbon.com"
         }
     ],
     "require": {
-        "php": "~5.4",
+        "php": ">=7",
         "ext-redis": "~2.2.5"
     },
 
     "autoload": {
         "psr-4": {
-            "RedLock\\": "src/"
+            "Divido\\RedisLock\\": "lib/"
         }
     }
 
