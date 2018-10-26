@@ -60,10 +60,10 @@ class LockModel
     /**
      * Set lock key
      *
-     * @param int $key
+     * @param string $key
      * @return LockModel
      */
-    public function withKey(int $key) :LockModel
+    public function withKey(string $key) :LockModel
     {
         $c = clone($this);
         $c->key = $key;
@@ -83,10 +83,10 @@ class LockModel
     /**
      * Set lock token
      *
-     * @param int $token
+     * @param string $token
      * @return LockModel
      */
-    public function withToken(int $token) :LockModel
+    public function withToken(string $token) :LockModel
     {
         $c = clone($this);
         $c->token = $token;
