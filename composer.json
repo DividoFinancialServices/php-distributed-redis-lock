@@ -1,5 +1,5 @@
 {
-    "name": "divido/php-distributed-redis-lock",
+    "name": "divido/distributed-redis-lock",
     "description": "Redis distributed locks in PHP",
     "authors": [
         {
